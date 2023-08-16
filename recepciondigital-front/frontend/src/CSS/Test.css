@@ -1,0 +1,29 @@
+.contenedor-test {
+    height: 600px;
+    width: 1000px;
+    margin: 10px 10px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff; 
+    box-shadow: 0 3px 13px 1px rgb(0 0 0 / 9%);
+  }
+
+.imagen-test {
+    height: 100%;
+    width: auto;
+}
+
+  h1 {
+      letter-spacing: -1px;
+  }
+
+.contenedor-texto-test{
+    width: 100%;
+    font-size: 18px;
+    text-align: center;
+    padding: 40px;
+    font-family: Lato, sans-serif;
+    line-height: 1.5rem;
+    font-weight: 400;
+}

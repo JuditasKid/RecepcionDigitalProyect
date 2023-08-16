@@ -1,0 +1,73 @@
+
+
+  label {
+      margin-bottom: 10px;
+      margin-top: 10px;
+  }
+
+  .elabel{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    display: flex;
+      
+  }
+  .reset-pass a,label {
+      font-size: 15px;
+      font-weight: 600;
+      display: flex;
+      
+  }
+
+  .reset-pass> a {
+    text-align: left;
+    margin-bottom: 3px;
+    margin-top: 3px;
+  }
+  
+  .field input {
+      font-size: 16px;
+      line-height: 20px;
+      padding: 6px 16px;
+      width: 100%;
+      max-width:668px;
+      min-height: 20px;
+      border: unset;
+      border-radius: 10px;
+      outline-color: rgb(84 105 212 / 0.5);
+      background-color: rgb(255, 255, 255);
+      box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                  rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                  rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                  rgba(60, 66, 87, 0.16) 0px 0px 0px 1px, 
+                  rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                  rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                  rgba(0, 0, 0, 0) 0px 0px 0px 0px;
+  }
+  
+  Button[type="button"] {
+      background-color: #5334ed;
+      box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                  rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                  rgba(0, 0, 0, 0.12) 0px 1px 1px 0px, 
+                  rgb(84, 105, 212) 0px 0px 0px 1px, 
+                  rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                  rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                  rgba(60, 66, 87, 0.08) 0px 2px 5px 0px;
+      
+      font-weight: 600;
+      cursor: pointer;
+      margin-top: 25px;
+  }
+  
+ Form.Control[type="password"]{
+    position: absolute;
+ }
+
+ .form{
+    position: relative;
+    width: 250px;
+    left: 25%;
+ }
+ 

@@ -1,0 +1,193 @@
+*{
+    font-family: league system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.contenedor-admin{
+    width: 1500px;
+    margin: 10px 10px 50px;
+    background-color: rgb(226, 243, 251); 
+    box-shadow: 0 3px 13px 1px rgb(0 0 0 / 9%);;
+    box-sizing: border-box;
+    padding: 30px;
+    position: relative;
+    border-radius: 3px;
+    
+    min-height: fit-content;
+    max-height: fit-content;
+}
+
+
+
+ul{
+  list-style: none;
+}
+
+.slide {
+    clear:both;
+    overflow: hidden;
+    text-align: center;
+    transition: height .4s ease;
+  }
+  
+  .slide li {padding : 20px;}
+  
+  #touch {position: absolute; opacity: 0; height: 0px;}    
+  
+ 
+  #touch:checked + .slide {height: 300px;} 
+  .btn-group button:not(:last-child) {
+    border-bottom: none; /* Prevent double borders */
+  }
+  
+  /* Add a background color on hover */
+  .btn-group button:hover {
+    background-color: #3e8e41;
+  }
+  .btn-group button {
+    background-color: #12166c; /* Green background */
+    border-top: 1.5px solid rgb(17, 150, 211); /* Green border */
+    border-bottom: 1.5px solid rgb(17, 150, 211); /* Green border */
+    color: white; /* White text */
+    width: 180px; /* Set a width if needed */
+    height: 45px;
+    border-radius: 15px;
+    font-size: 23px;
+    align-items: center;
+    justify-content: center;
+  }
+
+ul{
+  padding-left: 0px;
+}
+/* .logout{
+    position: absolute;
+    top: 5%;
+    left: 92%;
+    transform: translate(-50%, -50%)
+    
+} */
+
+.Enviar{
+  background-color: #12166c;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+ 
+
+}
+
+.Title{
+    position: absolute;
+    top: 15px;
+    left: 22%;
+    padding: 10px;
+}
+
+/* h3{
+    height: fit-content;
+    background-color:#12166c;
+    color: white;
+    box-shadow: 0 3px 13px 1px rgb(0 0 0 / 9%);
+    border-radius: 5px;
+    left: ;
+  } */
+
+
+
+
+.img{ 
+    position: absolute;
+    border-radius:5px;
+   
+    width:700px;
+    height:700px;
+
+    top: -5%;
+    left: 52%;
+    
+  
+    background:url(../images/receppng.png);
+    background-size: cover;
+}
+
+
+textarea{
+	width:100%;
+	height:100px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;			
+	margin:8px 0;
+	/*resize: vertical | horizontal | none | both*/
+	resize:none;
+	display:block;
+}
+
+input{
+  display: block;
+  width: 500px;
+  height: 30px;
+  padding-left: 20px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  margin: 7px;
+  font-size: 17px;
+  border-radius: 20px;
+  background: rgba(250, 4, 4, 0.05);
+  border: none;
+}  
+
+.field {
+  padding-left: 10px;
+  padding-right: 15px;
+}
+
+.Container-Pro{
+  width: 350px;
+  height: 320px;
+  position: absolute;
+  left: 23%;
+  top: 7%;
+  border-radius: 15px;
+  border: #12166c;
+  box-shadow: 0 3px 13px 1px rgb(0 0 0 / 9%);
+  
+}
+
+.Container-Op{
+  width: 350px;
+  height: 160px;
+  position: absolute;
+  left: 23%;
+  top: 15%;
+  border-radius: 15px;
+  border: #12166c;
+  box-shadow: 0 3px 13px 1px rgb(0 0 0 / 9%);
+  
+}
+
+.b-prop{
+  position: relative;
+}
+
+.busqueda{
+ 
+ position: relative;
+ display: block;
+ left: 20%;
+ width: 1160px;
+ bottom: 500px;
+ 
+}
+
+.propiedades{
+  width: 240px;
+  height: 600px;
+  background-color: #12166c;
+  border-radius: 20px;
+  position: relative;
+  
+}
+
